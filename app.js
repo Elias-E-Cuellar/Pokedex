@@ -54,10 +54,8 @@ function mostrarPokemon(pokemon) {
         </div>
     `;
 
-    // ✅ recién acá insertás el HTML
     contenedor.innerHTML = contenido;
 
-    // ✅ y después aplicás el color
     contenedor.querySelector(".card").style.background = color;
 }
 const colores = {
